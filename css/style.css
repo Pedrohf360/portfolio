@@ -183,26 +183,6 @@ PORTFÓLIO
     box-shadow: 3px 5px 5px #888888;
 }
 
-#logo {
-  margin: 0px;
-  width: 415px;
-  height: 275px;
-}
-
-.title{
-
-  width: 500px;
-  left: 0;
-  top: 120px;
-  font-weight: 700;
-  font-size: 30px;
-  text-align: center;
-  text-transform: uppercase;
-  color: white;
-  z-index: 1;
-  transition: top .5s ease;
-}
-
 /*
 CONTATO
 */
