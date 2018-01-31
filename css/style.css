@@ -164,18 +164,18 @@ SERVIÇOS
 PORTFÓLIO
 */
 
-#portfolio {
+#projetos {
 	display:  flex;
 	flex-direction: column;
 	align-items: center;
 	padding-top: 20px;
 }
 
-#portfolio h2 {
+#projetos h2 {
 	margin-bottom: 20px;
 }
 
-#portfolio img {
+#projetos img{
 	width: 100%;
 	margin: 0px 90px;
 	border: 1px solid;
@@ -272,17 +272,17 @@ MEDIA QUERIES
 	PORTFOLIO
 	*/
 
-	#portfolio {
+	#projetos {
 		flex-direction: row;
 		flex-wrap: wrap;
 	}
 
-	#portfolio h2{
+	#projetos h2{
 		width: 100%;
 		text-align: center;
 	}
 
-	#portfolio img {
+	#projetos img {
 		width: 33.3333333333%;
 	}
 
