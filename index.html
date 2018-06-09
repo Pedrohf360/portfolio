@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Portfólio - Pedro H.</title>
+		<link rel="shortcut icon" href="./assets/img/title.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Pacifico|Roboto Slab:400,700" rel="stylesheet">
+		
+		<link rel="stylesheet" href="./assets/css/normalize.css">
+		<link rel="stylesheet" href="./assets/css/style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	</head>
+	<body>
+		<div>
+			<nav>
+				<a onclick="scrollToElement('lorem')" id="title" class="margin-10 cursorPointer">PEDRO H.</a>
+				<ul class="nav">
+					<li class="nav-item">
+						<a class="nav-link active cursorPointer" onclick="scrollToElement('sobre')">SOBRE</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active cursorPointer" onclick="scrollToElement('servicos')">SERVIÇOS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active cursorPointer" onclick="scrollToElement('projetos')">PROJETOS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active cursorPointer" onclick="scrollToElement('contato')">CONTATO</a>
+					</li>
+				</ul>
+			</nav>
+
+			<header id="lorem">
+
+				<div>
+					<h1>PORTFÓLIO</h1>
+					<p>Aqui você encontra meus principais projetos profissionais, estudantis, entre outros.<br>
+						Se quiser ver outros projetos em andamento, <a href="https://github.com/Pedrohf360" target="_blank"><strong>clique aqui.</strong></a></p>
+					<a onclick="scrollToElement('sobre')" class="botao cursorPointer"> <span>VER MAIS</span></a>
+				</div>
+			</header>
+
+			<div id="sobre">
+				<h2>SOBRE</h2>
+				<p>Atualmente é imprescindível que sua empresa disponibilize aos seus clientes um ambiente virtual, onde possoa apresentar seus produtos e serviços, esclarecer dúvidas, estabelecer um contato mais transparente com seus parceiros, etc.<br></p>
+				<a onclick="scrollToElement('contato')" class="botao cursorPointer">ENTRE EM CONTATO</a>
+			</div>
+
+			<div class="container" id="servicos">
+				<h2 class="textCenter">SERVIÇOS</h2>
+				<div class="row justify-content-around margin-vr-20">
+					<div class="col-md-3">
+						<img src="./assets/img/configs.png" class="centerElement serviceImgHeigth" alt="Configurações">
+						<h3 class="textCenter">Portabilidade</h3>
+						<p>Disponibilize seu Website em diferentes plataformas. Em um mundo portátil, seu site não deve funcionar em apenas um único formato.</p>
+					</div>
+					<div class="col-md-3">
+						<img src="./assets/img/hospedagem.png" class="centerElement serviceImgHeigth" alt="Hospedagem">
+						<h3 class="textCenter">Hospedagem Moderna</h3>
+						<p>É importante contar com um serviço de hospedagem que possua um bom custo/benefício, atendendo às demandas necessárias aos serviços disponibilizados por seu negócio.</p>
+					</div>
+					<div class="col-md-3">
+						<img src="./assets/img/site.png" class="centerElement serviceImgHeigth" alt="Site">
+						<h3 class="textCenter">Melhores Práticas</h3>
+						<p>Conte com as melhores práticas de desenvolvimento, de forma que futuras manutenções não se tornem dor de cabeça.</p>
+					</div>
+					<div class="col-md-3">
+						<img src="./assets/img/coracao.png" class="centerElement serviceImgHeigth" alt="coracao">
+						<h3 class="textCenter">Parceria Confiável</h3>
+						<p>Conte com nosso atendimento sempre que precisar! Sua satisfação é nossa maior ambição!</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="jumbotron" id="projetos">
+				<h2 class="textCenter nomarginTop">PROJETOS</h2>
+				<div class="row margin-hr-20 margin-tp-20">
+					<div class="col-xs-12 col-md-3">
+						<a href="projetos/projeto-estagio/index.html" class="thumbnail zoomHover grow nostyleLink" target="_blank">
+						<h3 class="textCenter">Projeto Estágio</h3>
+						<img class="imgSize" src="./assets/img/aiko.png" alt="Project Image">
+						</a>
+					</div>
+
+					<div class="col-xs-12 col-md-3">
+						<a href="projetos/portfolio/index.html" class="thumbnail zoomHover grow nostyleLink" target="_blank">
+						<h3 class="textCenter">Exemplo portfólio</h3>
+						<img class="imgSize" src="./assets/img/portfolio.png" alt="Project Image">
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<section id="contato">
+				<h2>CONTATO</h2>
+				<p>Entre em contato conosco.</p>
+				<div>
+					<img src="./assets/img/fone.png" alt="Telefone">
+					<p><a href="tel:31991099682">(31) 9 9109-9682</a></p>
+				</div>
+
+					<div>
+					<img src="./assets/img/contato.png" alt="E-mail">
+					<p><a href="mailto:pedro_henrique360@hotmail.com">pedro_henrique360@hotmail.com</a></p>
+				</div>
+			</section>
+
+			<footer>
+				<p>&copy;Pedro H. - Desenvolvimento Web</p>
+			</footer>
+		</div>
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<script src="./assets/js/main.js"></script>
+	</body>
+</html>
